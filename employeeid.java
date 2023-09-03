@@ -20,7 +20,7 @@ public class EmployeeCommandPrompt {
 			double[] DA={20000,32000,12000,15000,40000};
 			
 			System.out.println("Enter the employee ID:");
-			int id=Integer.parseInt(args[0]);
+			int id=sc.nextInt();
 			int flag=0;
 			double salary=0;
 			for(int i=0;i<empID.length;i++)
