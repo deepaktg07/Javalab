@@ -12,10 +12,6 @@ break;
 else{
 last = mid - 1;
 }
-mid = (first + last)/2;
-}
-if( first > last ){
-System.out.println("Element is not found!");
 }
 } 
 public static void main(String args[]){
